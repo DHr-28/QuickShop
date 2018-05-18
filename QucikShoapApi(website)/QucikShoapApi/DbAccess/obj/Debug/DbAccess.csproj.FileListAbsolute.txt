@@ -1,0 +1,6 @@
+D:\projects\QucikShoapApi\DbAccess\bin\Debug\DbAccess.dll
+D:\projects\QucikShoapApi\DbAccess\bin\Debug\DbAccess.pdb
+D:\Projects\QucikShoapApi\QucikShoapApi\bin\DbAccess.dll
+D:\Projects\QucikShoapApi\QucikShoapApi\bin\DbAccess.pdb
+D:\Projects\QucikShoapApi\DbAccess\obj\Debug\DbAccess.dll
+D:\Projects\QucikShoapApi\DbAccess\obj\Debug\DbAccess.pdb

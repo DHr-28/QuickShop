@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/imag">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:layout_marginLeft="5dp">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate in (Rs):"/>
+
+    <TextView
+        android:id="@+id/productRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="122"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+
+    android:layout_marginLeft="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Name:"/>
+
+    <TextView
+        android:id="@+id/storeKeeperName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storekeepername"/>
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:layout_marginLeft="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Email:"/>
+
+    <TextView
+        android:id="@+id/storeKeeperEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xyz@test.com"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:layout_marginLeft="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recidency:"/>
+
+    <TextView
+        android:id="@+id/storeKeeperRecidency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resident Area"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:layout_marginLeft="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City:"/>
+
+    <TextView
+        android:id="@+id/storeKeeperCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Resident City"/>
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Discount Chart:"
+    android:paddingTop="10dp"
+    android:textStyle="bold"
+    android:typeface="monospace"
+    android:layout_marginLeft="10dp" />
+    <TableLayout
+        android:padding="10dp"
+        android:id="@+id/table_wholesellrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    </TableLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Enter No of Quantity:"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/txtNumberofQuantity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:hint="0"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/addtocartbtn"
+        android:layout_width="150dp"
+        android:text="Add to Cart"
+        android:textColor="@color/textColor"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#4f3b3b"
+        android:layout_marginTop="10dp" />
+
+
+</LinearLayout>

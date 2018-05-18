@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QucikShoapApi", "QucikShoapApi\QucikShoapApi.csproj", "{246E014E-5F96-4331-8C35-A3F8D32FA6FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbAccess", "DbAccess\DbAccess.csproj", "{B5618A75-7F4F-4F69-936D-206E702008EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{246E014E-5F96-4331-8C35-A3F8D32FA6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246E014E-5F96-4331-8C35-A3F8D32FA6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246E014E-5F96-4331-8C35-A3F8D32FA6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246E014E-5F96-4331-8C35-A3F8D32FA6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5618A75-7F4F-4F69-936D-206E702008EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5618A75-7F4F-4F69-936D-206E702008EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5618A75-7F4F-4F69-936D-206E702008EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5618A75-7F4F-4F69-936D-206E702008EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
